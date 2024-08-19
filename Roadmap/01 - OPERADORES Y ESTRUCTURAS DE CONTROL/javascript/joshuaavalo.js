@@ -88,7 +88,7 @@ console.log('resultado1 && resultado3:', resultado1 && resultado3); // false
 console.log('resultado2 || resultado4:', resultado2 || resultado4); // true
 console.log('resultado1 || resultado4:', resultado1 || resultado4); // true
 console.log('resultado3 || resultado4:', resultado3 || resultado4); // true
-console.log('resultado1 || resultado3:', resultado1 || resultado3); // false
+console.log('resultado1 || resultado3:', resultado1 || resultado3); // falsessss
 
 // Operadores de Cadena 
 
@@ -97,3 +97,16 @@ let apellido = "Lopez"
 let nombreCompleto = "Joaquin" + " " + "Lopez"
 
 console.log('Nombre Completo:', nombreCompleto);
+/*
+* DIFICULTAD EXTRA (opcional):
+* Crea un programa que imprima por consola todos los números comprendidos
+* entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3.
+*
+* Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.
+*/
+for (let i = 10; i <= 55; i++) {
+    if (i % 2 === 0 && i !== 16 && i % 3 !== 0) {
+      console.log(i);
+    }
+  }
+  
